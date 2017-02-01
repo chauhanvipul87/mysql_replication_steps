@@ -1,0 +1,4 @@
+I have tested this steps in MYSQL 5.5 server
+
+
+CHANGE MASTER TO MASTER_HOST='192.168.0.100',MASTER_USER='repl', MASTER_PASSWORD='slavepass', MASTER_LOG_FILE='clusterdb.000011', MASTER_LOG_POS=9045449;
